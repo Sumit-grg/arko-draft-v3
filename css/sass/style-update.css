@@ -1,0 +1,83 @@
+.intro .container-fluid .container .aboutme-flex {
+  display: flex;
+  align-items: center;
+}
+.intro .container-fluid .container .aboutme-flex img {
+  width: 50%;
+  position: relative;
+  left: 10px;
+  top: 10px;
+  border-radius: 4px;
+  border: 2px solid #B49637;
+}
+.intro .container-fluid .container .aboutme-flex .intro-text {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  left: -50px;
+  font-weight: 800;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 4px;
+}
+.intro .container-fluid .container .aboutme-flex1 {
+  display: flex;
+  align-items: center;
+}
+.intro .container-fluid .container .aboutme-flex1 img {
+  width: 50%;
+  position: relative;
+  left: -10px;
+  top: -10px;
+  border-radius: 4px;
+  border: 2px solid #B49637;
+}
+.intro .container-fluid .container .aboutme-flex1 .intro-text1 {
+  background-color: white;
+  width: 50%;
+  position: relative;
+  left: 50px;
+  font-weight: 800;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 4px;
+  z-index: 1;
+}
+.intro .container-fluid .container .aboutme-flex1 span {
+  font-size: larger;
+  font-weight: 900;
+}
+
+.testimonial-text, .fa-quote-left {
+  text-shadow: 2px 2px 2px black;
+  font-size: 2em;
+}
+
+.test-name {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.bg-dark .image-container {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  width: 90%;
+  padding: 4px 0;
+}
+.bg-dark .image-container .mySlides {
+  -o-object-fit: contain;
+     object-fit: contain;
+  display: none;
+  width: 100%;
+}
+.bg-dark .image-container div {
+  color: white;
+  font-size: larger;
+  padding: 10px;
+  border-radius: 2px;
+}
+.bg-dark .image-container div:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.475);
+}/*# sourceMappingURL=style-update.css.map */
