@@ -165,4 +165,18 @@ img.grid-sm-land-r {
     font-size: 1.1em;
     width: 100%;
   }
+}
+.website-counter {
+  background-color: #ff4957;
+  height: 50px;
+  width: 80px;
+  color: white;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }/*# sourceMappingURL=style-update.css.map */
