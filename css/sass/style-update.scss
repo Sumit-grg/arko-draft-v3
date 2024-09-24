@@ -1,64 +1,38 @@
+$alt-font: 'Open Sans', sans-serif;
+$body-font: 'Pt Serif', serif;
+$heading-font: 'Montserrat', sans-serif;
 // intro about me 
 .intro {
 	.container-fluid {
 		.container {
 			.aboutme-flex{
-				display: flex;
-				align-items: center;
 				img {
-					width: 50%;
-					position: relative;
-					left: 10px;
-					top: 10px;
+					width: 90%;
+					height: 360px;
+					object-fit: cover;
 					border-radius: 4px;
-					border: 2px solid #B49637;
+					border: 1px solid #B49637;
 				}
 				.intro-text {
-					background-color: white;
-					width: 50%;
-					position: relative;
-					left: -50px;
-					font-weight: 800;
+					font-family: $body-font;
+					font-size: 1.2em;
+					color: rgba(0, 0, 0, 0.772);
+					width: 80%;
 					padding: 20px;
 					text-align: justify;
 					border-radius: 4px;
+					margin: 0 auto;
 				}
 			}
-			.aboutme-flex1 {
-				display: flex;
-				align-items: center;
-				img {
-					width: 50%;
-					position: relative;
-					left: -10px;
-					top: -10px;
-					border-radius: 4px;
-					border: 2px solid #B49637;
-				}
-				.intro-text1 {
-					background-color: white;
-					width: 50%;
-					position: relative;
-					left: 50px;
-					font-weight: 800;
-					padding: 20px;
-					text-align: justify;
-					border-radius: 4px;
-					z-index: 1;
-				}
-				span {
-					font-size: larger;
-					font-weight: 900;
-				}
-			}
-		}
 	}
+}
 }
 
 
 
 // portpolio
 .bg-dark {
+	width: 100%;
 	.image-container {
 		display: flex;
 		align-items: center;
@@ -69,21 +43,23 @@
 			object-fit: contain;
 			display:none;
 			width: 100%;
-			// height: 94vh;
+			height: 94vh;
 		}
-		div {
-			color: white;
-			font-size: larger;
-			padding: 10px;
-			border-radius: 2px;
-			&:hover {
-				cursor: pointer;
-				background-color: rgba(255, 255, 255, 0.475);
-			}
+	}
+	.arr-display-left, .arr-display-right{
+		color: white;
+		font-size: larger;
+		padding: 10px;
+		border-radius: 2px;
+		position: relative;
+		&:hover {
+			cursor: pointer;
+			background-color: rgba(255, 255, 255, 0.475);
 		}
 	}
 	
 }
+
 
 // testimonal
 
@@ -157,4 +133,69 @@ img.grid-sm-land-l {
 img.grid-sm-land-r {
 	grid-row: span 2 / auto;
 	grid-column: span 3 / auto;
+}
+
+
+// blogs.html
+.blog-caption {
+	text-align: center;
+	position: relative;
+	top: 160px;
+	h1 {
+		color: white;
+		font-size: 2em;
+	}
+	img {
+		width: 4%;
+	}
+}
+.blog-loadmore-btn{
+	text-align: center;
+	a {
+		&:hover {
+			cursor: not-allowed;
+			
+		}
+	}
+}
+
+@media (max-width: 1400px) {
+	// intro about me 
+.intro {
+	.container-fluid {
+		.container {
+			.aboutme-flex{
+				img {
+					width: 100%;
+					height: 240px;
+
+				}
+				.intro-text {
+					width: 90%;
+				}
+			}
+	}
+}
+}
+}
+
+@media (max-width: 900px) {
+	// intro about me 
+.intro {
+	.container-fluid {
+		.container {
+			.aboutme-flex{
+				img {
+					width: 100%;
+					height: 200px;
+
+				}
+				.intro-text {
+					font-size: 1.1em;
+					width: 100%;
+				}
+			}
+	}
+}
+}
 }
