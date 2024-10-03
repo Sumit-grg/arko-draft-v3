@@ -28,8 +28,7 @@
   height: 360px;
   -o-object-fit: cover;
      object-fit: cover;
-  border-radius: 4px;
-  border: 1px solid #B49637;
+  border-radius: 2px;
 }
 .intro .container-fluid .container .aboutme-flex .intro-text {
   font-family: "Pt Serif", serif;
@@ -78,13 +77,13 @@
 }
 
 .testimonial-text, .fa-quote-left {
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
   font-size: 2em;
 }
 
 .test-name {
   color: white;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
 }
 
 /* new page portfolio updarte */
