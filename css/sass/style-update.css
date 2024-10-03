@@ -205,8 +205,12 @@ img.grid-sm-land-r {
   }
 }
 @media (max-width: 600px) {
+  .intro-text {
+    line-height: 1.6;
+  }
   .testimonial-text {
     font-size: 1.4em;
+    line-height: 1.4;
   }
   .bg-dark .image-container {
     width: 100%;
