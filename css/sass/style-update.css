@@ -199,7 +199,7 @@ img.grid-sm-land-r {
 }
 @media (max-width: 600px) {
   .testimonial-text {
-    font-size: 1.8em;
+    font-size: 1.4em;
   }
   .bg-dark .image-container {
     width: 100%;
