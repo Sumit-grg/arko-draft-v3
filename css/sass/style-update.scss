@@ -56,8 +56,49 @@ $heading-font: 'Montserrat', sans-serif;
 	}
 }
 }
+//blogs 
+// .work-item {
+// 	text-align: center;
+// 	img {
+// 		width: 300px;
+// 		height: 300px;
+// 		object-fit: cover;
+// 	}
+// }
+// .work-container{
+// 	border: 2px solid green;
+// }
 
 
+//blog new update mpte
+.new-blogitem-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 70%;
+	margin: 0 auto;
+	.new-blogitem {
+		margin: 4px 38px;
+		// width: 30%;
+		// border: 2px solid blue;
+		text-align: center;
+		img {
+			width: 280px;
+			height: 280px;
+			object-fit: cover;
+		}
+		h3 {
+			margin-top: 20px;
+		}
+		h3 a, span a {
+			font-size: 1em;
+		}
+		span a {
+			position: relative;
+			bottom: 10px;
+		}
+	}
+}
 
 // portpolio
 .bg-dark {
@@ -65,17 +106,15 @@ $heading-font: 'Montserrat', sans-serif;
 	.arr-container {
 		display: flex;
 		justify-content: center;
-		div {
-			margin: 0 20px;
-			font-size: 1.6em;
-		}
+		margin: 6px 0;
+
 	}
 	.image-container {
 		display: flex;
 		align-items: center;
 		margin: 0 auto;
 		width: 100%;
-		padding: 6px 6px 0 6px;
+		padding: 10px 6px 0 6px;
 		.mySlides {
 			object-fit: contain;
 			display:none;
@@ -85,8 +124,11 @@ $heading-font: 'Montserrat', sans-serif;
 	}
 	.arr-display-left, .arr-display-right{
 		color: white;
-		padding: 0 10px;
+		margin: 6px;
+		// padding: 0 10px;
 		border-radius: 2px;
+		margin: 0 20px;
+		font-size: 2em;
 		&:hover {
 			cursor: pointer;
 			background-color: rgba(255, 255, 255, 0.367);
@@ -95,7 +137,6 @@ $heading-font: 'Montserrat', sans-serif;
 	}
 	
 }
-
 
 // testimonal
 
@@ -204,6 +245,39 @@ img.grid-sm-land-r {
 }
 
 
+@media (max-width: 1300px) {
+	//blog new mote udate
+	.new-blogitem-container {
+		width: 100% !important;
+		.new-blogitem {
+			margin: 2px;
+			img {
+				width: 194px !important;
+				height: 194px !important;
+			}
+			h3 a, span a {
+				font-size: 0.8em;
+			}
+		}
+	}
+	}
+@media (max-width: 1700px) {
+	//blog new mote udate
+	.new-blogitem-container {
+		width: 100% !important;
+		img {
+			width: 250px !important;
+			height: 250px !important;
+		}
+	}
+	}
+@media (max-width: 2100px) {
+//blog new mote udate
+.new-blogitem-container {
+	width: 80%;
+}
+}
+
 @media (max-width: 1400px) {
 	// intro about me 
 .intro {
@@ -221,6 +295,31 @@ img.grid-sm-land-r {
 			}
 	}
 }
+}
+//blog new mote udate
+.new-blogitem-container {
+	width: 100%;
+	.new-blogitem{
+			margin: 10px;
+		img {
+			width: 200px !important;
+			height: 200px !important;
+		}
+	}
+}
+}
+
+@media (max-width: 1052px) {
+//blog new mote udate
+.new-blogitem-container {
+	width: 100%;
+	.new-blogitem{
+			margin: 2px;
+		img {
+			width: 200px !important;
+			height: 200px !important;
+		}
+	}
 }
 }
 
@@ -243,6 +342,11 @@ img.grid-sm-land-r {
 	}
 }
 }
+//blog new mote udate
+.new-blogitem-container {
+	width: 100%;
+}
+
 }
 
 
@@ -268,4 +372,15 @@ img.grid-sm-land-r {
 		}
 		
 	}
+//blog new mote udate
+.new-blogitem-container {
+	width: 100%;
+	.new-blogitem{
+			margin: 10px;
+		img {
+			width: 250px !important;
+			height: 250px !important;
+		}
+	}
+}
 }
