@@ -69,6 +69,19 @@
   bottom: 10px;
 }
 
+.blog-des1 {
+  text-align: justify;
+  padding: 6px;
+}
+
+@media (min-width: 1950px) {
+  .blog-des1 {
+    width: 1500px;
+    margin: 0 auto;
+    text-align: justify;
+    padding: 6px;
+  }
+}
 .bg-dark {
   width: 100%;
 }
