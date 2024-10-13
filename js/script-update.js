@@ -15,3 +15,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+
+const rightDisable = document.getElementById('right-disable');
+
+rightDisable.addEventListener("contextmenu", (event) => {
+  event.preventDefault();
+  });
