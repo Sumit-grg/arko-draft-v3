@@ -2,6 +2,35 @@ $alt-font: 'Open Sans', sans-serif;
 $body-font: 'Pt Serif', serif;
 $heading-font: 'Montserrat', sans-serif;
 
+
+//loading page
+.loading-page {
+	background-color: rgb(244, 244, 244);
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	text-align: center;
+	.loading-img {
+		position: absolute;
+		top: 30%;
+		left: 50%;
+		-ms-transform: translateX(-50%);
+		-ms-transform: translateY(-50%);
+		transform: translateY(-30%);
+		transform: translateX(-50%);
+		img {
+			width: 100px;
+			display: block;
+			margin: 0 auto;
+		}
+		svg {
+			width: 160px;
+		}
+	}
+}
 //home-swiper
 #home {
 	.home-caption {

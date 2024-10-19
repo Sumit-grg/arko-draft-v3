@@ -22,3 +22,9 @@ const rightDisable = document.getElementById('right-disable');
 rightDisable.addEventListener("contextmenu", (event) => {
   event.preventDefault();
   });
+
+const loadingPage = document.querySelector('.loading-page');
+
+setTimeout(()=>{
+  loadingPage.style.display = 'none';
+}, 1500)
